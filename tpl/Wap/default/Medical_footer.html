@@ -1,0 +1,28 @@
+
+       <div data-role="fieldcontain">
+          <div data-role="header">
+            <a data-iconpos="notext" title="Home"></a>
+            <h6 style='padding:0px;margin:0'><a href="javascript:window.scrollTo(0,0);" data-role="button" data-icon="flat-cmd">返回顶部</a></h6>
+            <a data-iconpos="notext"  title="Home"></a>
+          </div>
+      </div>
+<script type="text/javascript">
+window.shareData = {
+            "moduleName":"Medical",
+            "moduleID":"0",
+            "imgUrl": "{wqlcms:$cominfo['logourl']}",
+            "sendFriendLink": "{wqlcms:$f_siteUrl}{wqlcms::U('Medical/index',array('token'=>$token))}",
+            "tTitle": "{wqlcms:$title}",
+            "tContent": "{wqlcms:$cominfo['intro']|html_entity_decode|strip_tags|mb_substr=0,89,'utf-8'}..."
+        };
+</script>
+{wqlcms:$shareScript}
+<div class="copyright" style="padding-left: 36%;">
+      <span class="copyright">
+    <if condition="$iscopyright eq 1">
+    {wqlcms:$homeInfo.copyright}
+    <else/>
+    {wqlcms:$siteCopyright}
+    </if>
+    </span></div>
+<!-- <include file="Index:styleInclude"/><include file="$cateMenuFileName"/> -->

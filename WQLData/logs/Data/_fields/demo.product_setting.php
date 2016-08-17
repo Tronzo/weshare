@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'token', 2 => 'price', 3 => 'score', 4 => 'paymode', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(10) unsigned', 'token' => 'varchar(100)', 'price' => 'float', 'score' => 'float', 'paymode' => 'tinyint(1) unsigned', ), ); ?>

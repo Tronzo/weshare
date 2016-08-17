@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'wecha_id', 2 => 'differ', 3 => 'checked', 4 => 'message_id', 5 => 'reply', 6 => 'time', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11) unsigned', 'wecha_id' => 'varchar(60)', 'differ' => 'tinyint(1)', 'checked' => 'tinyint(1)', 'message_id' => 'int(11)', 'reply' => 'varchar(1000)', 'time' => 'varchar(10)', ), ); ?>

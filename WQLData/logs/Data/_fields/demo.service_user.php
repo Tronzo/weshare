@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'name', 2 => 'token', 3 => 'userName', 4 => 'userPwd', 5 => 'endJoinDate', 6 => 'status', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'name' => 'varchar(60)', 'token' => 'varchar(60)', 'userName' => 'varchar(60)', 'userPwd' => 'varchar(32)', 'endJoinDate' => 'int(11)', 'status' => 'tinyint(1)', ), ); ?>

@@ -1,0 +1,26 @@
+
+   <script type="text/javascript">
+window.shareData = {
+            "moduleName":"School",
+            "moduleID":"0",
+            "imgUrl": "{wqlcms:$info['head_url']}",
+            "sendFriendLink": "{wqlcms::C('site_url')}{wqlcms::U('School/index',array('token'=>$token))}",
+            "tTitle": "{wqlcms:$info['title']}",
+            "tContent": "{wqlcms:$info['info']|html_entity_decode|strip_tags|mb_substr=0,89,'utf-8'}..."
+        };
+</script>
+{wqlcms:$shareScript}
+
+    <div id="ui-header" >
+        <div class="fixed">
+            <a class="ui-title" id="popmenu">选择分类</a> <a class="ui-btn-left_pre" href="{wqlcms::U('School/index',array('token'=>$token,'wecha_id'=>$wecha_id))}">
+            </a><a class="ui-btn-right" href=""></a>
+        </div>
+    </div>
+    <div id="overlay"></div>
+<div id="win" >
+<ul class="dropdown">
+<li><a href="{wqlcms::U('School/public_list',array('token'=>$token,'wecha_id'=>$wecha_id,'cid'=>$info['menu1_id']))}"><span>{wqlcms:$info['menu1']|default='学校简介'}</span></a></li>
+<li><a href="{wqlcms::U('School/public_list',array('token'=>$token,'wecha_id'=>$wecha_id,'cid'=>$info['menu2_id'],'type'=>'assess'))}"><span>{wqlcms:$info['menu2']|default='教师风采'}</span></a></li>
+<li><a href="{wqlcms::U('School/public_list',array('token'=>$token,'wecha_id'=>$wecha_id,'cid'=>$info['menu3_id']))}"><span>{wqlcms:$info['menu3']|default='同学天地'}</span></a></li>
+<l

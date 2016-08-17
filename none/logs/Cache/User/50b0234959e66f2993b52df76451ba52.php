@@ -1,0 +1,240 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> <?php echo C('site_title');?> <?php echo C('site_name');?></title>
+<meta name="keywords" content="<?php echo C('keyword');?>" />
+<meta name="description" content="<?php echo C('content');?>" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<script>var SITEURL='';</script>
+<link rel="stylesheet" type="text/css" href="<?php echo RES;?>/css/style_2_common.css?BPm" />
+<link href="<?php echo RES;?>/css/style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo RES;?>/css/stylet.css" rel="stylesheet" type="text/css" />
+<link href="tpl/static/simpleboot/themes/flat/theme.min.css" rel="stylesheet">
+<script src="<?php echo RES;?>/js/common.js" type="text/javascript"></script>
+<script type="text/javascript" src="<?php echo RES;?>/js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo RES;?>/js/main.js"></script>
+<script type="text/javascript" src="<?php echo RES;?>/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="<?php echo RES;?>/js/global.js"></script>
+  <link rel="stylesheet" href="/tpl/User/default/common/css/cymain.css" />
+  <link rel="stylesheet" href="<?php echo STATICS;?>/kindeditor/themes/default/default.css" />
+<script src="/tpl/static/upyun.js"></script>
+
+<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+
+<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+
+<link rel="stylesheet" href="<?php echo STATICS;?>/kindeditor/plugins/code/prettify.css" />
+
+
+
+<script src="<?php echo STATICS;?>/kindeditor/kindeditor.js" type="text/javascript"></script>
+
+
+
+<script src="<?php echo STATICS;?>/kindeditor/lang/zh_CN.js" type="text/javascript"></script>
+
+
+
+<script src="<?php echo STATICS;?>/kindeditor/plugins/code/prettify.js" type="text/javascript"></script>
+
+<script>
+var editor;
+KindEditor.ready(function(K) {
+editor = K.create('#content2', {
+resizeType : 1,
+allowPreviewEmoticons : false,
+allowImageUpload : true,
+uploadJson : '/index.php?g=User&m=Upyun&a=kindedtiropic',
+items : [
+'source','undo','clearhtml','hr',
+'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+'insertunorderedlist', '|', 'emoticons', 'image','link', 'unlink','baidumap','lineheight','table','anchor','preview','print','template','code','cut', 'music', 'video'],
+afterBlur: function(){this.sync();}
+});
+});
+</script>
+<script>
+var editor;
+KindEditor.ready(function(K) {
+editor = K.create('#content1', {
+resizeType : 1,
+allowPreviewEmoticons : false,
+allowImageUpload : true,
+uploadJson : '/index.php?g=User&m=Upyun&a=kindedtiropic',
+items : [
+'source','undo','clearhtml','hr',
+'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+'insertunorderedlist', '|', 'emoticons', 'image','link', 'unlink','baidumap','lineheight','table','anchor','preview','print','template','code','cut', 'music', 'video'],
+afterBlur: function(){this.sync();}
+});
+});
+</script>
+<script>
+var editor;
+KindEditor.ready(function(K) {
+editor = K.create('#content', {
+resizeType : 1,
+allowPreviewEmoticons : false,
+allowImageUpload : true,
+uploadJson : '/index.php?g=User&m=Upyun&a=kindedtiropic',
+items : [
+'source','undo','clearhtml','hr',
+'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+'insertunorderedlist', '|', 'emoticons', 'image','link', 'unlink','baidumap','lineheight','table','anchor','preview','print','template','code','cut', 'music', 'video'],
+afterBlur: function(){this.sync();}
+});
+});
+</script>
+<script>
+var editor;
+KindEditor.ready(function(K) {
+editor = K.create('#intro', {
+resizeType : 1,
+allowPreviewEmoticons : false,
+allowImageUpload : true,
+uploadJson : '/index.php?g=User&m=Upyun&a=kindedtiropic',
+items : [
+'source','undo','clearhtml','hr',
+'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+'insertunorderedlist', '|', 'emoticons', 'image','link', 'unlink','baidumap','lineheight','table','anchor','preview','print','template','code','cut', 'music', 'video'],
+afterBlur: function(){this.sync();}
+});
+});
+</script>
+
+
+<style>
+.content {
+ background:none; margin-left:30px; margin-top:20px; border:none; margin-bottom:30px;
+}
+</style>
+</head>
+
+<body>
+
+<link rel="stylesheet" type="text/css" href="./tpl/User/default/common/css/cymain.css" />
+<div class="tab">
+<ul>
+<li class="<?php if(ACTION_NAME == 'index'): ?>current<?php endif; ?> tabli" id="tab0"><a href="<?php echo U('Estate/index',array('token'=>$token));?>">楼盘简介</a></li>
+<li class="<?php if(ACTION_NAME == 'son'): ?>current<?php endif; ?> tabli" id="tab2"><a href="<?php echo U('Estate/son',array('token'=>$token));?>">子楼盘</a></li>
+<li class="<?php if(ACTION_NAME == 'housetype'): ?>current<?php endif; ?> tabli" id="tab2"><a href="<?php echo U('Estate/housetype',array('token'=>$token));?>">楼盘户型</a></li>
+<li class="<?php if(ACTION_NAME == 'album'): ?>current<?php endif; ?> tabli" id="tab5"><a href="<?php echo U('Estate/album',array('token'=>$token));?>">楼盘相册</a></li>
+<li class="<?php if(ACTION_NAME == 'impress'): ?>current<?php endif; ?> tabli" id="tab5" ><a href="<?php echo U('Estate/impress',array('token'=>$token));?>" >房友印象</a></li>
+<li class="<?php if(ACTION_NAME == 'expert'): ?>current<?php endif; ?> tabli" id="tab6"><a href="<?php echo U('Estate/expert',array('token'=>$token));?>">专家点评</a></li>
+<li class="<?php if(ACTION_NAME == 'reservation'): ?>current<?php endif; ?> tabli" id="tab7"><a href="<?php echo U('Estate/reservation',array('token'=>$token));?>">预约管理</a></li>
+
+<li class="<?php if(ACTION_NAME == 'aboutus'): ?>current<?php endif; ?> tabli" id="tab7"><a href="<?php echo U('Estate/aboutus',array('token'=>$token));?>">关于我们</a></li>
+</ul>
+</div> 
+<link rel="stylesheet" type="text/css" href="<?php echo RES;?>/css/cymain.css" />
+<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+
+	
+        <div class="content">
+<div class="cLineB">
+<h4 class="left">公司信息</h4>
+<div class="searchbar right">
+<form method="post" action="">
+
+<script>
+function setlatlng(longitude,latitude){
+	art.dialog.data('longitude', longitude);
+	art.dialog.data('latitude', latitude);
+	// 此时 iframeA.html 页面可以使用 art.dialog.data('test') 获取到数据，如：
+	// document.getElementById('aInput').value = art.dialog.data('test');
+	art.dialog.open('<?php echo U('Map/setLatLng',array('token'=>$token,'id'=>$id));?>',{lock:false,title:'设置经纬度',width:600,height:400,yesText:'关闭',background: '#000',opacity: 0.87});
+}
+</script>
+<?php if(($parentid != '0') and ($parentid != '')): ?><a href="<?php echo U('Product/cats',array('token'=>$token,'parentid'=>$parentCat['parentid']));?>" class="btn btn-primary btn_submit  J_ajax_submit_btn" style="margin-top:-27px">返回上</a><?php endif; ?>
+</form>
+</div>
+<div class="clr"></div>
+</div>
+
+<!--tab start-->
+<div class="tab">
+
+</div>
+<!--tab end-->
+<div class="msgWrap">
+ <form class="form" method="post" id="form" name="form" action=""> 
+ <input type="hidden" name="isbranch" id="isbranch" value="1" />
+<?php if($set["id"] != ''): ?><input type="hidden" name="id" value="<?php echo ($set["id"]); ?>" /><?php endif; ?>
+<input type="hidden" name="discount" id="discount" value="<?php echo ($set["discount"]); ?>" />
+    <div class="msgWrap bgfc"> 
+     <table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%"> 
+      <tbody> 
+       <tr> 
+        <th><span class="red">*</span>名称：</th> 
+        <td><input type="text" id="name" name="name" value="<?php echo ($set["name"]); ?>" class="px require" style="width:400px;" /></td> 
+       </tr>
+       <tr style="display: none;"> 
+        <th><span class="red">*</span>简称：</th> 
+        <td><input type="text" id="shortname" name="shortname" value="loupan" class="px require" style="width:400px;" /></td> 
+       </tr>
+       <tr> 
+        <th><span class="red">*</span>电话：</th> 
+        <td><input type="text" id="tel" name="tel" value="<?php echo ($set["tel"]); ?>" class="px require" style="width:400px;" /></td> 
+       </tr> 
+       <tr> 
+        <th><span class="red">*</span>手机：</th> 
+        <td><input type="text" id="mp" name="mp" value="<?php echo ($set["mp"]); ?>" class="px require" style="width:400px;" /></td> 
+       </tr> 
+       <tr> 
+        <th><span class="red">*</span>地址：</th> 
+        <td><input type="text" id="address" name="address" value="<?php echo ($set["address"]); ?>" class="px require" style="width:400px;" /></td> 
+       </tr> 
+       <tr> 
+        <th><span class="red">*</span>Logo地址：</th> 
+        <td><input type="text" id="logourl" name="logourl" value="<?php echo ($set["logourl"]); ?>" class="px require" style="width:400px;" /> <script src="/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('logourl',700,420,'<?php echo ($token); ?>')" class="btn btn-primary btn_submit  J_ajax_submit_btn">上传</a> <a href="###" onclick="viewImg('logourl')">预览</a></td> 
+       </tr>
+        <tr> 
+        <th><span class="red">*</span>经纬度：</th> 
+        <td>经度 <input type="text" id="longitude"  name="longitude" size="14" class="px" value="<?php echo ($set["longitude"]); ?>" /> 纬度 <input type="text"  name="latitude" size="14" id="latitude" class="px" value="<?php echo ($set["latitude"]); ?>" /> <a href="###" onclick="setlatlng($('#longitude').val(),$('#latitude').val())">在地图中查看/设置</a></td> 
+       </tr>
+       <tr> 
+        <th><span class="red"></span>顺序：</th> 
+        <td><input type="text" id="taxis" name="taxis" value="<?php echo ($set["taxis"]); ?>" class="px require" style="width:100px;" /></td> 
+       </tr>
+        <TR>
+                  <TH valign="top"><label for="info">图文详细页内容：</label></TH>
+                  <TD><textarea name="intro" id="content"  rows="5" style="width:590px;height:360px;display:none;"><?php echo ($set["intro"]); ?></textarea>
+
+                  </TD>
+                </TR>  
+       <tr>         
+       <th>&nbsp;</th>
+       <td>
+     
+      <input type="hidden" name="token" value="<?php echo $token;?>" />
+       <button type="submit" name="button" class="btn btn-primary btn_submit  J_ajax_submit_btn">保存</button></td> 
+       </tr> 
+      </tbody> 
+     </table> 
+     </div>
+    
+   </form> 
+
+
+</div>
+<div class="cLine">
+
+<div class="clr"></div>
+</div>
+</div>
+<script language="javascript">
+$(function(){
+
+	$("#form").valid([
+	{ name:"name",simple:"名称",require:true},
+	{ name:"mp",type:"mobile",message:"手机号输入不正确"}
+	
+	],true,true);
+
+})
+</script>
+<div style="display:none">
+<link href="tpl/static/simpleboot/themes/flat/theme.min.css" rel="stylesheet">
+</div>

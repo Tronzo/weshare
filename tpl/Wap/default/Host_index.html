@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>{wqlcms:$set['title']}|在线订购</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link href="{wqlcms::RES}/css/style/css/hotels.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="" >
+<div class="qiandaobanner"> 
+  <if condition="$set['ppicurl'] neq false">
+   <img src="{wqlcms:$set['ppicurl']}"  />  
+  <else />
+    <img src="{wqlcms::RES}/css/style/images/default.jpg"  />  
+ </if>
+ </div>
+<div class="cardexplain"> 
+
+  <!--普通用户登录时显示-->
+     
+
+<!--商家房价及类型-->
+<ul class="round">
+<li class="title"><span class="none">{wqlcms:$set['title']}</span></li>
+            
+ <volist name="list" id="vo">            
+<li class="dandanb"> <!--订房-->
+<a href="index.php?g=Wap&m=Host&a=lists&token={wqlcms:$vo.token}&id={wqlcms:$vo.id}&wecha_id={wqlcms:$Think.get.wecha_id}&hid={wqlcms:$set['id']}"><span>
+<table class="jiagebiao" width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><div>{wqlcms:$vo.type}</div>
+<div><img src="{wqlcms:$vo.picurl}" class="showimg">
+<p>{wqlcms:$vo.typeinfo}</p>
+<p>原价：<a class="yuanjia">￥{wqlcms:$vo.price}</a></p>
+<p>优惠价：<a class="youhuijia">￥{wqlcms:$vo.yhprice}</a></p></td>
+</tr>
+</table>
+</span></a>
+</li>
+</volist>  
+</ul>
+
+<!--后台可控制是否显示-->
+<ul class="round">
+<li class="title"><span class="none">订单说明</span></li>
+<li>
+<div class="text">
+{wqlcms:$set['info2']}
+</div>
+</li>
+</ul>
+
+<!--后台可控制是否显示-->
+<ul class="round">
+<li class="addr"><a href="?g=Wap&m=Company&a=map&token={wqlcms:$Think.get.token}&wecha_id={wqlcms:$Think.get.wecha_id}"><span>{wqlcms:$set['address']}</span></a></li>
+<li class="tel"><a href="tel://{wqlcms:$set['tel2']}"><span>{wqlcms:$set['tel2']} 电话预订</span></a></li>
+<if condition="$set['tel'] neq false">
+<li class="tel"><a href="tel://{wqlcms:$set['tel']}"><span>{wqlcms:$set['tel']} 电话预订</span></a></li>
+</if>
+<li class="detail"><a href="index.php?g=Wap&m=Host&a=companyDetail&token={wqlcms:$Think.get.token}&wecha_id={wqlcms:$Think.get.wecha_id}&hid={wqlcms:$Think.get.hid}"><span>查看商家详情</span></a></li>
+</ul>
+</div>
+
+
+<script type="text/javascript">
+window.shareData = {  
+            "moduleName":"Host",
+            "moduleID":"0",
+            "imgUrl": "", 
+            "sendFriendLink": "{wqlcms:$f_siteUrl}{wqlcms::U('Host/index',array('token'=>$token))}",
+            "tTitle": "{wqlcms:$set['title']}",
+            "tContent": "{wqlcms:$set['title']}"
+};
+</script>
+{wqlcms:$shareScript}
+<script type="text/javascript" src="/tpl/Wap/default/common/js/ChatFloat.js"></script>
+<if condition="$kefu['zxyd'] eq '1'"><a href="{wqlcms:$kefu.info2}" id="CustomerChatFloat" style="position: fixed; right: 0px; top: 150px; z-index: 99999; height: 70px; width: 65px; min-width: 65px; background-image: url(/tpl/Wap/default/common/css/img/MobileChatFloat.png); background-size: 65px; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"></a></if></body>
+</html>

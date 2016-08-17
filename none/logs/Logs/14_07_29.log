@@ -1,0 +1,1738 @@
+[ 2014-07-29T23:49:43+08:00 ] 220.200.59.135 /index.php?g=User&m=Baoming&a=index&token=ekopsi1406612080&id=188
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001021s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000453s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000891s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000461s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000497s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'Baoming' ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `tp_baoming_list` [ RunTime:0.000520s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_baoming_list` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT * FROM `tp_baoming_list` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY sort DESC LIMIT 0,25   [ RunTime:0.000086s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020153s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014372s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035183s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035580s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2014-07-29T23:49:44+08:00 ] 220.200.59.135 /index.php?g=User&m=Baoming&a=add
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001261s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000920s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000892s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000353s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'Baoming' ) LIMIT 1   [ RunTime:0.000067s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018936s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: infoType /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/3000b8bd6e8d961b8f6b100059ffbd26.php 第 703 行.
+NOTIC: [8] Undefined variable: infoType /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/3000b8bd6e8d961b8f6b100059ffbd26.php 第 704 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012270s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032073s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032642s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033235s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-07-29T23:49:48+08:00 ] 220.200.59.135 /index.php?g=User&m=Jiejing&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001050s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000471s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000630s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000948s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000358s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_jiejing` [ RunTime:0.000407s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'Jiejing' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `tp_jiejing` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: token /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/JiejingAction.class.php 第 40 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018257s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/f708993ad89c1c733b5f85605bacfc64.php 第 653 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013304s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032147s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032613s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033071s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033925s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2014-07-29T23:49:57+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001065s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000631s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000083s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000844s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000473s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000434s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000070s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025154s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013820s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039609s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039989s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040418s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001545s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041265s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2014-07-29T23:50:04+08:00 ] 220.200.59.135 /index.php?g=User&m=Fenlei&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001378s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000510s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000658s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000916s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000351s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_fenlei` [ RunTime:0.000540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_fenlei` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `tp_fenlei` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY id desc  [ RunTime:0.000211s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020912s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000466s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: key /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/630183a1d27d7e029d8e016857ff30be.php 第 658 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013131s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034668s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035215s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001808s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2014-07-29T23:50:09+08:00 ] 220.200.59.135 /index.php?g=User&m=Fenlei&a=reply
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001224s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001236s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000373s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `tp_fenlei` [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `tp_fenlei_reply` [ RunTime:0.000498s ]
+SQL: SELECT * FROM `tp_fenlei_reply` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000192s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000430s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011220s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032842s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033451s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033919s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001894s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2014-07-29T23:50:13+08:00 ] 101.226.33.240 /index.php?g=Home&m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001011s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000102s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.004321s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: content /www/web/weiqianlong/public_html/WQLData/logs/Cache/Home/2d6ac60a190d2ad772a0136b5e6afe4b.php 第 17 行.
+NOTIC: [8] Undefined variable: keyword /www/web/weiqianlong/public_html/WQLData/logs/Cache/Home/2d6ac60a190d2ad772a0136b5e6afe4b.php 第 19 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.005019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.014432s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.014915s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015510s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002102s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.016659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2014-07-29T23:50:13+08:00 ] 220.200.59.135 /index.php?g=User&m=Jikedati&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001007s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000468s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000626s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000905s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000398s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `tp_jikedati` [ RunTime:0.000552s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_jikedati` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `tp_jikedati` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY id desc  [ RunTime:0.000222s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012771s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035738s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036304s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002166s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2014-07-29T23:50:15+08:00 ] 220.200.59.135 /index.php?g=User&m=Jikedati&a=reply
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001046s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000630s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000912s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000395s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `tp_jikedati` [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `tp_jikedati_reply` [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tp_jikedati_reply` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000190s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020894s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012344s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033882s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034274s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034747s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035590s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2014-07-29T23:50:19+08:00 ] 220.200.59.135 /index.php?g=User&m=Jikedati&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001237s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000634s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001088s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000595s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `tp_jikedati` [ RunTime:0.000495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_jikedati` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT * FROM `tp_jikedati` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY id desc  [ RunTime:0.000106s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000553s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013795s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039206s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039636s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040184s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001829s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-07-29T23:50:21+08:00 ] 220.200.59.135 /index.php?g=User&m=Jikedati&a=add&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001051s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000453s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000619s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000858s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000440s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `tp_jikedati` [ RunTime:0.000568s ]
+SQL: SELECT * FROM `tp_jikedati` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: set /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/JikedatiAction.class.php 第 172 行.
+NOTIC: [8] Undefined variable: arr /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/JikedatiAction.class.php 第 174 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021259s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/9e0d0898549f330f7590ab157d8b3132.php 第 1333 行.
+NOTIC: [8] Undefined variable: isUpdate /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/9e0d0898549f330f7590ab157d8b3132.php 第 1373 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015245s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037128s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037541s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038005s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001729s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039014s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2014-07-29T23:50:25+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001070s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000629s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.001081s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000711s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000553s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000091s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027839s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044299s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044708s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045154s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001640s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2014-07-29T23:50:29+08:00 ] 101.226.89.120 /index.php?g=Home&m=Index&a=login
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001051s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.003490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: content /www/web/weiqianlong/public_html/WQLData/logs/Cache/Home/2d6ac60a190d2ad772a0136b5e6afe4b.php 第 17 行.
+NOTIC: [8] Undefined variable: keyword /www/web/weiqianlong/public_html/WQLData/logs/Cache/Home/2d6ac60a190d2ad772a0136b5e6afe4b.php 第 19 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.004177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008544s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.012801s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.013313s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.013895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.014310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015123s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-07-29T23:50:33+08:00 ] 220.200.59.135 /index.php?g=User&m=Kefu&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001031s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000477s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000918s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000362s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000996s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000698s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'Kefu' ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: token /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/KefuAction.class.php 第 39 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022319s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043463s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043892s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044357s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045192s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-07-29T23:50:41+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001459s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000684s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000486s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000067s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027378s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013126s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041138s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041538s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041938s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001548s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042759s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2014-07-29T23:50:46+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001137s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000685s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000463s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000065s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016296s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041419s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041907s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2014-07-29T23:50:53+08:00 ] 220.200.59.135 /index.php?g=Chat&m=Login&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.001498s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.002003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006797s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.008853s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.009222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.009654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.009925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.010449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2014-07-29T23:50:56+08:00 ] 220.200.59.135 /index.php?g=User&m=ServiceUser&a=chat_log&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001392s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000623s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000823s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000950s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000366s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `tp_service_user` [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `tp_service_logs` [ RunTime:0.000369s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_service_logs` LIMIT 1   [ RunTime:0.000061s ]
+SQL: SELECT * FROM `tp_service_logs` ORDER BY id desc LIMIT 0,25   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_service_user` [ RunTime:0.000482s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000062s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000059s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 22 ) LIMIT 1   [ RunTime:0.000152s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000060s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `id` = 21 ) LIMIT 1   [ RunTime:0.000094s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/d73566251b1d5d5ae1340d8da9ba41b0.php 第 634 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036990s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037481s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038035s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-07-29T23:50:57+08:00 ] 220.200.59.135 /index.php?g=User&m=ServiceUser&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001056s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000877s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000908s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000363s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_service_user` [ RunTime:0.000421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `tp_service_user` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY id desc LIMIT 0,25   [ RunTime:0.000186s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020994s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant Common - assumed 'Common' /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/cab2f9276e04265534be881b6385f9eb.php 第 634 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015451s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037111s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037702s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038378s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002399s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039629s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-07-29T23:51:18+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001256s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000876s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000126s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000967s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026977s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017028s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045006s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045565s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046136s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.047333s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2014-07-29T23:51:18+08:00 ] 220.200.59.135 /index.php?g=User&m=Weilive&a=ad&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001307s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000477s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000688s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000964s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000354s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tp_member_business_ad` [ RunTime:0.000500s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member_business_ad` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `tp_member_business_ad` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.000196s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024818s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013108s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038658s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2014-07-29T23:51:20+08:00 ] 220.200.59.135 /index.php?g=User&m=Weilive&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000650s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000864s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000373s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `tp_member_wei_category` [ RunTime:0.000512s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member_wei_category` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `tp_member_wei_category` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY displayorder LIMIT 0,15   [ RunTime:0.000191s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011990s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033983s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034503s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2014-07-29T23:51:22+08:00 ] 220.200.59.135 /index.php?g=User&m=Weilive&a=reply&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.000987s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000672s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.001945s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000948s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000376s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_weilivereply_info` [ RunTime:0.000500s ]
+SQL: SELECT * FROM `tp_weilivereply_info` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000237s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021515s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032804s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002061s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2014-07-29T23:51:28+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001144s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000624s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000076s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000780s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000505s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000396s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026602s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018748s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046214s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046850s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047522s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002432s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-07-29T23:51:37+08:00 ] 220.200.59.135 /index.php?g=User&m=Yulan&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001017s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011509s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.020109s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.020525s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.020977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.021256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001878s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.022103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2014-07-29T23:51:37+08:00 ] 220.200.59.135 /index.php?g=Wap&m=Index&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001392s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000948s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `wecha_id` = null ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `tp_wechat_group_list` [ RunTime:0.000460s ]
+SQL: SELECT * FROM `tp_wechat_group_list` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `openid` = null ) LIMIT 1   [ RunTime:0.000092s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/7/8/7830a40109f51bd537adf93ba9fc1f78.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_home` [ RunTime:0.000526s ]
+SQL: SELECT * FROM `tp_home` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000084s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/6/1/615ac34a711ce396de2e418f86fa2463.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_catemenu` [ RunTime:0.000420s ]
+SQL: SELECT * FROM `tp_catemenu` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `status` = 1 ) ORDER BY orderss desc  [ RunTime:0.000092s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/f/e/fe04009f253740130627c6e0c1180fd3.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000575s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000102s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/4/7/47595d6f6f0bcb8cc99e0b1d0d01fee3.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000958s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index:  advancetpl /www/web/weiqianlong/public_html/WQLCms/Lib/Action/Wap/IndexAction.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000659s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'ekopsi1406612080' )  [ RunTime:0.000220s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/Wap/IndexAction.class.php 第 533 行.
+NOTIC: [2] Invalid argument supplied for foreach() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/Wap/IndexAction.class.php 第 86 行.
+NOTIC: [8] Undefined index:  homeurl /www/web/weiqianlong/public_html/WQLCms/Lib/Action/Wap/IndexAction.class.php 第 97 行.
+NOTIC: [8] Undefined index:  bjdh /www/web/weiqianlong/public_html/WQLCms/Lib/Action/Wap/IndexAction.class.php 第 160 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.033390s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  musicurl /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 81 行.
+NOTIC: [8] Undefined index:  copyright /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 285 行.
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 293 行.
+NOTIC: [8] Undefined index:  picurl /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 336 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 337 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 338 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 339 行.
+NOTIC: [8] Undefined index:  title /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/83fb0105d73feacf2b862b3965704b70.php 第 340 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.034272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020646s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054916s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055388s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055907s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-07-29T23:51:40+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001036s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.001036s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000102s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000069s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025826s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015880s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042407s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042776s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043162s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001590s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044047s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-07-29T23:51:42+08:00 ] 220.200.59.135 /index.php?g=User&m=Forum&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001008s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000661s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000907s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000352s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000432s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'forum' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_forum_topics` [ RunTime:0.000649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_forum_topics` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `tp_forum_topics` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY status ASC,createtime DESC LIMIT 0,10   [ RunTime:0.000217s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ForumAction.class.php 第 23 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020229s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016522s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037507s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038384s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001663s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039228s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2014-07-29T23:51:44+08:00 ] 220.200.59.135 /index.php?g=User&m=Reply&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2048] Declaration of ReplyAction::insert() should be compatible with that of BaseAction::insert() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ReplyAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001007s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000490s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000648s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000895s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000348s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `tp_function` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `tp_function` WHERE ( `funname` = 'message' ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_reply_info` [ RunTime:0.000857s ]
+SQL: SELECT * FROM `tp_reply_info` WHERE ( `infotype` = 'message' ) AND ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_leave` [ RunTime:0.000639s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_leave` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `tp_leave` WHERE ( `token` = 'ekopsi1406612080' ) ORDER BY id DESC LIMIT 0,10   [ RunTime:0.000087s ]
+NOTIC: [2] Invalid argument supplied for foreach() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ReplyAction.class.php 第 67 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.022870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant wecha_id - assumed 'wecha_id' /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/c7a46c43fb895d3c320c49db01e791cc.php 第 707 行.
+NOTIC: [8] Use of undefined constant checked - assumed 'checked' /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/c7a46c43fb895d3c320c49db01e791cc.php 第 707 行.
+NOTIC: [8] Use of undefined constant chk_value - assumed 'chk_value' /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/c7a46c43fb895d3c320c49db01e791cc.php 第 707 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040172s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041093s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042053s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2014-07-29T23:51:52+08:00 ] 220.200.59.135 /index.php?g=User&m=Classify&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [2048] Declaration of ClassifyAction::insert() should be compatible with that of BaseAction::insert() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ClassifyAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001088s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000458s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000732s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001129s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000562s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index:  fid /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ClassifyAction.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000499s ]
+NOTIC: [8] Undefined index:  fid /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/ClassifyAction.class.php 第 19 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_classify` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `fid` = 0 ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `fid` = 0 ) ORDER BY sorts desc LIMIT 0,25   [ RunTime:0.000371s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020676s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  fid /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/66f463959e6f446427ba2f10d1812ee9.php 第 629 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014665s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035944s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036472s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038002s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2014-07-29T23:51:59+08:00 ] 220.200.59.135 /index.php?g=User&m=Wzq&a=index&token=ekopsi1406612080
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001113s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000679s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000966s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 148 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001318s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'ekopsi1406612080' ) AND ( `uid` = 148 ) LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000369s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'ekopsi1406612080' ) LIMIT 1   [ RunTime:0.000067s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018959s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000479s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024904s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044496s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045115s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045760s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002305s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2014-07-29T23:52:18+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001104s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000753s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000568s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000467s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000069s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024763s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014419s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039795s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040168s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040576s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-07-29T23:52:42+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001435s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000712s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000079s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000931s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000615s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000438s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026377s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014304s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041327s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041876s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002160s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2014-07-29T23:53:18+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001329s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000078s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000559s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000401s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000070s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025980s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015737s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042494s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042898s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043312s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044131s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2014-07-29T23:53:58+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001030s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000775s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000096s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000938s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000756s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000072s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025987s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043827s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044234s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-07-29T23:54:49+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001039s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000110s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000726s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000496s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000443s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037562s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037990s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038408s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2014-07-29T23:54:57+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001273s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000791s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000500s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000072s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026187s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014377s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041182s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041592s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042055s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001604s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2014-07-29T23:55:14+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001069s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000594s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000073s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000690s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000503s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000429s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023237s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014509s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038354s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038733s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039160s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2014-07-29T23:55:19+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001454s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000631s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000668s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000394s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000072s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.026318s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000533s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014359s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041400s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041880s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042407s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042838s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-07-29T23:55:47+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001070s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000656s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000508s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000086s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.025679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.026284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013856s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040203s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040597s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041029s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041849s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2014-07-29T23:56:03+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001112s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000792s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000139s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.001016s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000543s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000395s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000069s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024340s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013093s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038061s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038424s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038844s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001489s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039685s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2014-07-29T23:56:27+08:00 ] 110.86.130.165 /wxcmsadmin.php?g=User&m=Flash&a=edit&id=28&tip=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2048] Declaration of FlashAction::insert() should be compatible with that of BaseAction::insert() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/FlashAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001033s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000468s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000633s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000924s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000369s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000536s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.000207s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000442s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.018669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011173s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029889s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030257s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030709s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030978s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-07-29T23:56:29+08:00 ] 110.86.130.165 /wxcmsadmin.php?g=User&m=Attachment&a=index&type=background
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001252s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000495s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000642s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000973s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000413s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index:  folder /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/AttachmentAction.class.php 第 10 行.
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.019774s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: apikey /www/web/weiqianlong/public_html/WQLData/logs/Cache/User/29cdead212af15cb2ef317d9a7298585.php 第 11 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017517s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037885s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038285s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038698s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001553s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039508s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2014-07-29T23:56:32+08:00 ] 110.86.130.165 /wxcmsadmin.php?g=User&m=Flash&a=upsave&id=28&tip=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+NOTIC: [2048] Declaration of FlashAction::insert() should be compatible with that of BaseAction::insert() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/FlashAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001328s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000468s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000634s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000982s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000365s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000464s ]
+SQL: UPDATE `tp_flash` SET `img`='http://114.215.182.129/tpl/static/attachment/background/view/9.jpg',`url`='',`info`='',`sort`='' WHERE ( `id` = 28 ) [ RunTime:0.000243s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.020517s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007941s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029327s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029698s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030100s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001512s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2014-07-29T23:56:33+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001070s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000655s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000077s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000718s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000445s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000269s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.023320s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019688s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043857s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044246s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2014-07-29T23:56:34+08:00 ] 110.86.130.165 /wxcmsadmin.php?g=User&m=Flash&a=index&tip=2
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2048] Declaration of FlashAction::insert() should be compatible with that of BaseAction::insert() /www/web/weiqianlong/public_html/WQLCms/Lib/Action/User/FlashAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001038s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000454s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000647s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.001079s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000360s ]
+SQL: SELECT `queryname` FROM `tp_token_open` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000446s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `tip` = 2 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `tip` = 2 ) ORDER BY sort desc,id DESC LIMIT 0,25   [ RunTime:0.000253s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018859s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013260s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032699s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033117s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033536s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034458s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2014-07-29T23:57:27+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001418s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000658s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000075s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000724s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000512s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000417s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.024767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016661s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042366s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042831s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043336s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001964s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-07-29T23:57:42+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001409s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000920s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000991s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000622s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000548s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000068s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027386s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.027985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015997s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044081s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044733s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045201s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2014-07-29T23:59:10+08:00 ] 110.86.130.165 /index.php?g=Wap&m=Index&a=index&token=fvaczq1405658789&wecha_id=ob2qxjgbC8wTmFfmJdS14O-So_jg&sgssz=mp.weixin.qq.com
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `tp_agent` [ RunTime:0.001113s ]
+SQL: SELECT * FROM `tp_agent` WHERE ( `siteurl` = 'http://114.215.182.129' ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000623s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `isbranch` = 0 ) LIMIT 1   [ RunTime:0.000102s ]
+NOTIC: [2] unlink(./WQLData/logs/Temp/d/2/d2044b19079ead07a386aa9096ab3980.php) [<a href='function.unlink'>function.unlink</a>]: No such file or directory /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Driver/Cache/CacheFile.class.php 第 176 行.
+SQL: SHOW COLUMNS FROM `tp_kefu` [ RunTime:0.000879s ]
+SQL: SELECT * FROM `tp_kefu` WHERE ( `token` = 'fvaczq1405658789' ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `tp_classify` [ RunTime:0.000652s ]
+SQL: SELECT * FROM `tp_classify` WHERE ( `token` = 'fvaczq1405658789' ) AND ( `status` = 1 ) ORDER BY sorts desc  [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_flash` WHERE ( `token` = 'fvaczq1405658789' )  [ RunTime:0.000081s ]
+NOTIC: [2] Cannot use a scalar value as an array /www/web/weiqianlong/public_html/WQLCms/_Core/Lib/Core/View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.027541s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: bjdh /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 199 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 243 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 244 行.
+NOTIC: [2] Division by zero /www/web/weiqianlong/public_html/WQLData/logs/Cache/Wap/a0889d9b339a8f4420064ff9010b9d6d.php 第 245 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.028250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015290s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043595s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043975s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044373s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000774s ]
+

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'wechatgroupid', 2 => 'name', 3 => 'intro', 4 => 'token', 5 => 'fanscount', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(10)', 'wechatgroupid' => 'varchar(20)', 'name' => 'varchar(60)', 'intro' => 'varchar(200)', 'token' => 'varchar(30)', 'fanscount' => 'int(10)', ), ); ?>

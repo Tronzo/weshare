@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'cid', 2 => 'istakeaway', 3 => 'price', 4 => 'payonline', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(10) unsigned', 'cid' => 'int(10) unsigned', 'istakeaway' => 'tinyint(1) unsigned', 'price' => 'float', 'payonline' => 'tinyint(1) unsigned', ), ); ?>

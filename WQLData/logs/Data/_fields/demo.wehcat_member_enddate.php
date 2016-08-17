@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'openid', 2 => 'enddate', 3 => 'joinUpDate', 4 => 'uid', 5 => 'token', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'openid' => 'varchar(60)', 'enddate' => 'int(11)', 'joinUpDate' => 'int(11)', 'uid' => 'int(11)', 'token' => 'varchar(40)', ), ); ?>
