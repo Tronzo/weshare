@@ -29,12 +29,12 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
           <li> <a href="{wqlcms::U('Home/Index/solution')}" class="">经典案例</a> </li>
           <li> <a href="{wqlcms::U('Home/Index/navigation')}" class="">功能导航</a> </li>
           <li> <a href="{wqlcms::U('Home/Index/spread')}" class="">渠道代理</a> </li>
-          <li> <a href="http://shangkongkeji.taobao.com"target="_blank">购买程序</a> </li>
+          <!-- <li> <a href="#"target="_blank">购买程序</a> </li> -->
           <li> <a href="{wqlcms::U('Home/Index/about')}" class="">关于我们</a> </li>
         </ul>
       </div>
       <div class="header-btns">
-        <if condition="$_SESSION[uid]==false"> <a href="{wqlcms::U('Home/Index/login')}" class="btn btn-text">登录</a> <a href="{wqlcms::U('Home/Index/reg')}" class="btn btn-green">注册试用</a>
+        <if condition="$_SESSION[uid]==false"> <a href="{wqlcms::U('Home/Index/login')}" class="btn btn-text">登录</a> <a href="{wqlcms::U('Home/Index/reg')}" class="btn btn-red login_try">注册试用</a>
           <else/>
           <a href="{wqlcms::U('User/Index/index')}" class="btn btn-green">{wqlcms:$Think.session.uname}</a> <a href="/#" class="btn btn-green" onClick="Javascript:window.open('{wqlcms::U('System/Admin/logout')}','_blank')" >退出</a> </if>
       </div>
