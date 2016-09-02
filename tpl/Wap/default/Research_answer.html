@@ -169,12 +169,13 @@ $(function(){
 				alert("抱歉,服务器繁忙");
 			}
 		});
-	});
-	$(document).ajaxBeforeSend(function(e, xhr, options){
+		$(document).ajaxBeforeSend(function(e, xhr, options){
 		$("#loading").show();
-	}).ajaxComplete(function(e, xhr, options){
-		$("#loading").hide();
+		}).ajaxComplete(function(e, xhr, options){
+			$("#loading").hide();
+		});
 	});
+	
 });
 </script>
 <script type="text/javascript" src="/tpl/Wap/default/common/js/ChatFloat.js"></script>
