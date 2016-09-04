@@ -271,22 +271,22 @@ class ResearchAction extends LotteryBaseAction
         header('Content-Disposition:attachment;filename=' . $filename . '.xls');
         header('Pragma: no-cache');
         header('Expires: 0');
-        if (!empty($title)) {
+        if (!empty($title)){
             foreach ($title as $k => $v) {
-                $title[$k] = iconv('UTF-8', 'GB2312', $v);
+                $title[$k]=iconv("UTF-8", "GB2312",$v);
             }
-            $title = implode('  ', $title);
-            echo "{$title}\n";
+            $title= implode("\t", $title);
+            echo "$title\n";
         }
-        if (!empty($data)) {
-            foreach ($data as $key => $val) {
+        if (!empty($data)){
+            foreach($data as $key=>$val){
                 foreach ($val as $ck => $cv) {
-                    $data[$key][$ck] = iconv('UTF-8', 'GB2312', $cv);
+                    $data[$key][$ck]=iconv("UTF-8", "GB2312", $cv);
                 }
-                $data[$key] = implode(' ', $data[$key]);
+                $data[$key]=implode("\t", $data[$key]);
+                
             }
-            echo implode('
-', $data);
+            echo implode("\n",$data);
         }
     }
 }
