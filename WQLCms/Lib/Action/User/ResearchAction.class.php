@@ -232,4 +232,61 @@ class ResearchAction extends LotteryBaseAction
         $this->assign('research', $data);
         parent::edit(6);
     }
+
+     public function exportForms()
+    {
+        $rid = I('rid',0,'intval');
+        $Research = M('Research')->where(array('id'=>$rid,'token'=>$this->token))->find();
+        $Research_question = M('research_question')->where(array('rid'=>$rid))->count();
+        $Research_answer = M('research_answer')->where(array('qid'=>$this->$rid))->select();
+        $research_result = M('research_result')->alias('r')->join(C('DB_PREFIX').'userinfo u ON u.wecha_id=r.wecha_id','left')->where(array('rid'=>$rid))->select();
+        $list = array(); 
+        foreach ($research_result as $key => $value) {
+            $list[$value['wecha_id']][] = $value;
+        }
+        $data = array();
+        $title = array('姓名', '手机号','城市','单位名称');
+        for($i=1;$i<$count,$i++){
+            $title[] = '第'.$i.'题';
+        }
+        
+        foreach ($list as $key => $value) {
+            $data[$key][] = $value[0]['truename'];
+            $data[$key][] = $value[0]['tel'];
+            $data[$key][] = $value[0]['city'];
+            $data[$key][] = $value[0]['company'];
+            foreach ($value as $key => $val) {
+               
+                $data[$key][] = $val['aids'];
+            }
+        }
+        $exname = '调查结果';
+        $this->exportexcel($data, $title, $exname);
+    }
+    public function exportexcel($data = array(), $title = array(), $filename = 'report')
+    {
+        header('Content-type:application/octet-stream');
+        header('Accept-Ranges:bytes');
+        header('Content-type:application/vnd.ms-excel');
+        header('Content-Disposition:attachment;filename=' . $filename . '.xls');
+        header('Pragma: no-cache');
+        header('Expires: 0');
+        if (!empty($title)) {
+            foreach ($title as $k => $v) {
+                $title[$k] = iconv('UTF-8', 'GB2312', $v);
+            }
+            $title = implode('  ', $title);
+            echo "{$title}\n";
+        }
+        if (!empty($data)) {
+            foreach ($data as $key => $val) {
+                foreach ($val as $ck => $cv) {
+                    $data[$key][$ck] = iconv('UTF-8', 'GB2312', $cv);
+                }
+                $data[$key] = implode(' ', $data[$key]);
+            }
+            echo implode('
+', $data);
+        }
+    }
 }
