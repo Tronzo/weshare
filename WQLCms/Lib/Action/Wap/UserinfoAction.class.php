@@ -90,7 +90,8 @@ class UserinfoAction extends WapAction{
 			$data['bornmonth'] = $this->_post('bornmonth');
 			$data['bornday'] = $this->_post('bornday');
 			$data['portrait'] = $this->_post('portrait');
-			
+			$data['city'] = $this->_post('city');
+			$data['company'] = $this->_post('company');
  			//如果会员卡不为空[更新]
  			//写入两个表 Userinfo Member_card_create 
  			if ($cardid==0){
