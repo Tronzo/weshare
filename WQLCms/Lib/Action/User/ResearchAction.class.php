@@ -235,7 +235,7 @@ class ResearchAction extends LotteryBaseAction
 
      public function exportForms()
     {
-        $rid = I('rid',0,'intval');
+        $rid = isset($_GET['rid']) ? intval($_GET['rid']) : 0;
         $Research = M('Research')->where(array('id'=>$rid,'token'=>$this->token))->find();
         $Research_question = M('research_question')->where(array('rid'=>$rid))->count();
         $Research_answer = M('research_answer')->where(array('qid'=>$this->$rid))->select();
