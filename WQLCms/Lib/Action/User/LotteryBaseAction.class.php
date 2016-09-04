@@ -38,6 +38,7 @@ class LotteryBaseAction extends UserAction
             case 5:
                 $activeType = 'GoldenEgg';
                 break;
+
         }
         if (IS_POST) {
             $data              = D('lottery');
@@ -58,7 +59,10 @@ class LotteryBaseAction extends UserAction
                         if ($_POST['statdate'] < time()) {
                             $this->_start($id);
                         }
-                        
+                        if($_POST['researchid']){
+                            M('Research')->where(array('id'=>$_POST['researchid']))->save(array('lid'=>$id));
+                             $this->success('活动创建成功',U('Research/index', array('token' => session('token'))));
+                        }
                         $this->success('活动创建成功', U($activeType . '/index'));
                     } else {
                         $this->error('服务器繁忙,请稍候再试');
@@ -334,6 +338,10 @@ class LotteryBaseAction extends UserAction
             $this->error('非法操作');
         }
         $back = $data->where($wehre)->delete();
+        $type = $this->_get('type');
+        if($type=='6'){
+            M('Research')->where(array('lid'=>$id))->save(array('lid'=>''));
+        }
         if ($back == true) {
             M('Keyword')->where(array(
                 'pid' => $id,

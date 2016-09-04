@@ -26,6 +26,9 @@ class ResearchAction extends LotteryBaseAction
     }
     public function index()
     {
+        if ($this->wecha_id&&!$this->fans){
+            $this->error('请先完善个人资料再参加活动',U('Userinfo/index',array('token'=>$this->token,'wecha_id'=>$this->wecha_id,'redirect'=>MODULE_NAME.'/index:reid'.invtal($this->_rid))));
+        }
         $status = 0;
         if ($this->_research['starttime'] > time()) {
             $status = 1;

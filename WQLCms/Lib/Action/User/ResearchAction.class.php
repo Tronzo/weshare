@@ -39,6 +39,7 @@ class ResearchAction extends LotteryBaseAction
             $research['description'] = isset($_REQUEST['description']) ? htmlspecialchars($_REQUEST['description']) : '';
             $keyword = $research['keyword'] = isset($_REQUEST['keyword']) ? htmlspecialchars($_REQUEST['keyword']) : '';
             $research['logourl'] = isset($_REQUEST['logourl']) ? htmlspecialchars($_REQUEST['logourl']) : '';
+            $research['backgoundurl'] = isset($_REQUEST['backgoundurl']) ? htmlspecialchars($_REQUEST['backgoundurl']) : '';
             $research['token'] = $this->token;
             $research['starttime'] = isset($_REQUEST['starttime']) ? strtotime(htmlspecialchars($_REQUEST['starttime'])) : '';
             $research['endtime'] = isset($_REQUEST['deadline']) ? strtotime(htmlspecialchars($_REQUEST['deadline'])) : '';
