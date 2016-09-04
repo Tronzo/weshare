@@ -246,7 +246,7 @@ class ResearchAction extends LotteryBaseAction
         }
         $data = array();
         $title = array('姓名', '手机号','城市','单位名称');
-        for($i=1;$i<$Research_question;$i++){
+        for($i=1;$i<=$Research_question;$i++){
             $title[] = '第'.$i.'题';
         }
         
