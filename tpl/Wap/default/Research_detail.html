@@ -203,7 +203,11 @@ margin-left: -40px;
 </div>
 
 <div class="wrapper">
-	<img class="bg" src="../tpl/static/research/images/bg.jpg">
+	 <if condition="$research['backgoundurl']">
+	 <img class="bg" src="{wqlcms:$research['backgoundurl']}" >
+	 <else/>
+	<img class="bg" src="../tpl/static/research/images/bg.jpg" >
+	</if>
 	<div class="question" style="overflow:hidden;">
 		<div class="title">{wqlcms:$question['name']}</div>
 		<if condition="$maxsel eq 1">
