@@ -21,13 +21,15 @@
 		.index strong{font-size: 12px;}
 		.question .title{
 			font-size: 24px;
-			text-align: center;
+			font-family: "Microsoft Yahei";
+			text-align: left;
 			max-height: 77px;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			padding: 0 10px;
 			line-height: 26px;
 			margin-bottom: 10px;
+			word-wrap: break-word;
 		}
 		.question .option{position: relative;height: 45px;}
 		.question .option .text{position: relative;line-height: 40px;overflow: hidden;}
@@ -189,6 +191,7 @@ $(function(){
 });
 </script>
 <script type="text/javascript" src="/tpl/Wap/default/common/js/ChatFloat.js"></script>
-<if condition="$kefu['diaoyan'] eq '1'"><a href="{wqlcms:$kefu.info2}" id="CustomerChatFloat" style="position: fixed; right: 0px; top: 150px; z-index: 99999; height: 70px; width: 65px; min-width: 65px; background-image: url(/tpl/Wap/default/common/css/img/MobileChatFloat.png); background-size: 65px; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"></a></if></body>
+<!-- <if condition="$kefu['diaoyan'] eq '1'"><a href="{wqlcms:$kefu.info2}" id="CustomerChatFloat" style="position: fixed; right: 0px; top: 150px; z-index: 99999; height: 70px; width: 65px; min-width: 65px; background-image: url(/tpl/Wap/default/common/css/img/MobileChatFloat.png); background-size: 65px; background-position: 0px 0px; background-repeat: no-repeat no-repeat;"></a></if> -->
+</body>
 </html>
 

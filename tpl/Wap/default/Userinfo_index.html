@@ -198,7 +198,7 @@ onblur="check1(this)"  type="text" class="px" id="wechaname" value="{wqlcms:$fan
 
 <tr>
 
-<th>真实姓名</th>
+<th>姓名</th>
 
 <td><input name="truename"  type="text" class="px" id="truename" value="{wqlcms:$info.truename}" placeholder="请输入您的真实姓名"></td>
 
@@ -475,13 +475,19 @@ function() {
 
     if (tel == '') {
 
-        alert("请认真输入手机号");
+        alert("请输入手机号!");
 
         return
 
     }
 
-    
+    if (truename == '') {
+
+        alert("请输入姓名");
+
+        return
+
+    }
 
     if (wechaname == '') {
 
