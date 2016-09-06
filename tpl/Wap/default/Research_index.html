@@ -58,7 +58,11 @@ margin-top: 30px;
 </style>
 <body>
 	<div class="wrapper">
-	<img class="bg" src="../tpl/static/research/images/bg.jpg">
+	 <if condition="$research['backgoundurl']">
+	 <img class="bg" src="{wqlcms:$research['backgoundurl']}" >
+	 <else/>
+	<img class="bg" src="../tpl/static/research/images/bg.jpg" >
+	</if>
 	<div style="height: 25px;"></div>
 	<div class="content-w1">
 		<div class="content-w2">

@@ -142,7 +142,7 @@ Unknown property name.-ms-filter: progid:DXImageTransform.Microsoft.gradient(Gra
 
 </if>
 
-<li>
+<!-- <li>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
 
@@ -158,9 +158,21 @@ onblur="check1(this)"  type="text" class="px" id="wechaname" value="{wqlcms:$fan
 
 </table>
 
-</li>
+</li> -->
 
 <li>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
+
+<tr>
+
+<th>姓名</th>
+
+<td><input name="truename"  type="text" class="px" id="truename" value="{wqlcms:$info.truename}" placeholder="请输入您的真实姓名"></td>
+
+</tr>
+
+</table>
+
 <!--判断写入!-->
 <if condition="$status['status'] eq '1'">
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
@@ -194,17 +206,7 @@ onblur="check1(this)"  type="text" class="px" id="wechaname" value="{wqlcms:$fan
 
 
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
 
-<tr>
-
-<th>真实姓名</th>
-
-<td><input name="truename"  type="text" class="px" id="truename" value="{wqlcms:$info.truename}" placeholder="请输入您的真实姓名"></td>
-
-</tr>
-
-</table>
 
 </li>
 <li>
@@ -239,7 +241,7 @@ onblur="check1(this)"  type="text" class="px" id="wechaname" value="{wqlcms:$fan
 
 </li>
 
-<li>
+<!-- <li>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="kuang">
 
@@ -253,11 +255,11 @@ onblur="check1(this)"  type="text" class="px" id="wechaname" value="{wqlcms:$fan
 
 </table>
 
-</li>
+</li> -->
 
 </ul>
 
-<ul class="round">
+<!-- <ul class="round">
 
 <li>
 
@@ -329,9 +331,9 @@ function selectpor(el){
 
 
 
-</ul>
+</ul> -->
 
-<ul class="round">
+<!-- <ul class="round">
 
 <li>
 
@@ -407,7 +409,7 @@ function selectpor(el){
 
 </li>
 
-</ul>
+</ul> -->
 
 
 
@@ -475,45 +477,51 @@ function() {
 
     if (tel == '') {
 
-        alert("请认真输入手机号");
+        alert("请输入手机号!");
 
         return
 
     }
 
-    
+    if (truename == '') {
 
-    if (wechaname == '') {
-
-        alert("请认真输入微信号");
+        alert("请输入姓名");
 
         return
 
     }
 
-    if(/[^\d]/.test(bornyear)||bornyear><php>echo date('Y',time())-1;</php>||bornyear<<php>echo date('Y',time())-100;</php>){
+    // if (wechaname == '') {
 
-    	alert("请认真输入出生年份");
+    //     alert("请认真输入微信号");
 
-        return
+    //     return
 
-    }
+    // }
 
-    if(/[^\d]/.test(bornmonth)||bornmonth<1||bornmonth>12){
+    // if(/[^\d]/.test(bornyear)||bornyear><php>echo date('Y',time())-1;</php>||bornyear<<php>echo date('Y',time())-100;</php>){
 
-    	alert("请认真输入出生月份"+bornmonth);
+    // 	alert("请认真输入出生年份");
 
-        return
+    //     return
 
-    }
+    // }
 
-    if(/[^\d]/.test(bornday)||bornday<1||bornday>31){
+    // if(/[^\d]/.test(bornmonth)||bornmonth<1||bornmonth>12){
 
-    	alert("请认真输入出生日");
+    // 	alert("请认真输入出生月份"+bornmonth);
 
-        return
+    //     return
 
-    }
+    // }
+
+    // if(/[^\d]/.test(bornday)||bornday<1||bornday>31){
+
+    // 	alert("请认真输入出生日");
+
+    //     return
+
+    // }
 
    
 
